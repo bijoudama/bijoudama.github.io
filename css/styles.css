@@ -142,7 +142,7 @@ span.slash {
 
 @media screen and (max-width:480px){
 	* {
-		font-size: 36px;
+		font-size: 24px;
 	}
 
 	div#logo {
@@ -151,13 +151,13 @@ span.slash {
 	}
 
 	img {
-		width: 50%;
+		width: 80%;
 	}
 
 	ul {
 		text-align: center;
 		margin: auto;
-		width: 100%;
+		width: 80%;
 	}
 
 	li {
@@ -171,8 +171,8 @@ span.slash {
 		display: none;
 	}
 
-	div#contact {
-
+	ul.contact+li {
+		font-size: 48px;
 	}
 
 	li:first-child {
@@ -181,8 +181,16 @@ span.slash {
 		font-size: 24px;
 		letter-spacing: -0.5px;
 	}
+
+	ul#trigger1, div.quote {
+		display: none;
+	}
 }
 
+
+.ending {
+	font-size: 24px;
+}
 
 div.container {
 	width:100%;
